@@ -27,8 +27,6 @@
 template <typename TIterator>
 TIterator faster_unique( TIterator begin, TIterator end )
 {
-    if ( begin == end ) return end;
-
     TIterator value = begin;
     TIterator next = value;
 
